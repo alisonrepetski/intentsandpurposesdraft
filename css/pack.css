@@ -448,7 +448,13 @@ color: #ffc400;
   color:#ee2f7f
  }
 
- @media (max-height: 800px) {
+ @media (max-width: 1000px) {
+  .modal-content-11 {
+    font-size: 1vw;
+  }
+ }
+
+ @media (max-width: 700px) {
   .modal-content-11 {
     font-size: 2vw;
   }
