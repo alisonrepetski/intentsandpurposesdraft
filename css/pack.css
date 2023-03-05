@@ -116,7 +116,9 @@ h4{
 #images {
   position: relative;
   top: 0;
-  left: 0;
+  left: 7%;
+  width: 88%;
+  
 }
 
 #gear-map {
@@ -437,11 +439,30 @@ color: #ffc400;
   }
  }
 
- @media (max-width: 900px) {
+ @media (max-width: 1200px) {
   .modal-content-10 {
-    font-size: 2vw;
+    font-size: 1vw;
   }
  }
+
+ @media (max-width: 900px) {
+  .modal-content-1 {
+    font-size: 1.5vw;
+  }
+ }
+
+ @media (max-width: 1200px) {
+  .modal-content-1 {
+    font-size: 1vw;
+  }
+ }
+
+ @media (max-width: 900px) {
+  .modal-content-10 {
+    font-size: 1.5vw;
+  }
+ }
+
 
 
  strong {
